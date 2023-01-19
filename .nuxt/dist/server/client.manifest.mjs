@@ -1,0 +1,1 @@
+export { default } from "file:///Users/nursultannurtuganuly/Desktop/PhpStormProjects/halyk-life/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

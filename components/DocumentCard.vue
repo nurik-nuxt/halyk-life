@@ -49,7 +49,7 @@ function uploadFile(info) {
   const documents = [document]
   files.forEach(file => {
     formData.append('file',file)
-    // formData.append('fileData', JSON.stringify(documents))
+    formData.append('fileData', JSON.stringify(documents))
   })
   store.addDocument(
       formData

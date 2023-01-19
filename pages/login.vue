@@ -39,10 +39,6 @@ import { useAuthStore } from '~/stores/auth'
 import 'ant-design-vue/dist/antd.css'
 import {message} from "ant-design-vue";
 
-// definePageMeta({
-//   layout:'blank'
-// })
-
 const formRef = ref(null)
 let store = useAuthStore()
 let form = reactive({
